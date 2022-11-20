@@ -4,6 +4,10 @@ public class SayilariTopla {
 
     public static void main(String[] args) {
 
+        char harf= 'a';
+        char yeniharf = (char)(harf+1);
+        System.out.println(yeniharf); // b
+
         //String parametreli bir method yazin ve girilen String icindeki dijitlerin toplamini dondurun
 
         String str= "ase1r4d3";

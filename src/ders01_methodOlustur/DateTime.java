@@ -13,6 +13,9 @@ public class DateTime {
         d= d.minus(p); // d objesinden periyod kadar zaman cikar
         DateTimeFormatter f = DateTimeFormatter.ofPattern("YYYY/MM/dd HH:mm");
         System.out.println(f.format(d)); // 2019/05/08 09:22
+
+        String a= "Ali";
+        String b= null;
     }
 
 
