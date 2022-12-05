@@ -3,10 +3,10 @@ package pazarPractise;
 import java.util.Random;
 
 public class DiziOrtalama {
-    //Rastgele sayılardan oluşmuş 100 elemanlık tamsayı dizisindeki tüm elemanların
-// ortalamasını alacak bir kod yazin.
-// Rastgele oluşan 100 elemanlık sayı kümesi program yeniden her çalıştığında değişsin.
-// Sabit elemanlı bir dizi vermeyin!
+    // Rastgele sayılardan oluşmuş 100 elemanlık tamsayı dizisindeki tüm elemanların
+    // ortalamasını alacak bir kod yazin.
+    // Rastgele oluşan 100 elemanlık sayı kümesi program yeniden her çalıştığında değişsin.
+    // Sabit elemanlı bir dizi vermeyin!
 
     public static void main(String[] args) {
         Random rnd=new Random();
@@ -16,12 +16,11 @@ public class DiziOrtalama {
         for (int i = 0; i <100 ; i++) {
             System.out.println("arrayin"+(i+1)+"elemani");
 
-
             arr[i]=rnd.nextInt(1000);
             System.out.println(arr[i]+" , ");
             toplam+=arr[i];
         }
         System.out.println("toplam : "+ toplam);
-        System.out.println("toplamin ortalamzsi :"+toplam/100);
+        System.out.println("toplamin ortalamasi : "+toplam/100);
     }
 }

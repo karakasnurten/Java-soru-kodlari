@@ -2,7 +2,7 @@ package pazarPractise;
 
 import java.util.Arrays;
 
-public class MaintainArrays {
+public class MountainArrays {
     /*
     MOUNTAIN ARRAY SORUSU : *Verilen herhangi bir arrayin Mountain Array olup olmadıgını kontrol etmek için bir kod
     yazınız.
@@ -32,9 +32,7 @@ public class MaintainArrays {
         mountainArrayKontrol(arr4);
         mountainArrayKontrol(arr5);
         mountainArrayKontrol(arr6);
-
     }
-
     public static void mountainArrayKontrol(int[] arr) {
 
         int maxSayi = arr[0];
@@ -53,7 +51,7 @@ public class MaintainArrays {
         }
 
         for (int i = 0; i < maxSayiIndex; i++) {
-            if (arr[i] < arr[i + 1]) { //max sayiya kadar surekli artis var mi
+            if (arr[i] < arr[i + 1]) { // max sayiya kadar surekli artis var mi
                 continue;
             } else {
                 sonuc = false;
@@ -63,7 +61,7 @@ public class MaintainArrays {
 
         if (sonuc) {
             for (int i = maxSayiIndex; i < arr.length - 1; i++) {
-                if (arr[i] > arr[i + 1]) {//max sayidan sonra surekli azalis var mi
+                if (arr[i] > arr[i + 1]) {// max sayidan sonra surekli azalis var mi
                     continue;
                 } else {
                     sonuc = false;

@@ -1,12 +1,12 @@
 package pazarPractise;
 
 public class ToplamMethod {
-    //Verilen string ifadenin icindeki sayilarin toplamini yazan method yapalim.
-// input= "Bu10islemin20sonucu30kac40olur."
-// output=100
+    // Verilen string ifadenin icindeki sayilarin toplamini yazan method yapalim.
+    // input= "Bu 10 islemin 20 sonucu 30 kac 40 olur."
+    // output=100
     public static void main(String[] args) {
         int toplam = 0;
-        String input = "Bu5islemin137sonucu19kac90olur.";
+        String input = "Bu 10 islemin 20 sonucu 30 kac olur.";
         String yeni = "";
 
         for (int i = 0; i < input.length(); i++) {

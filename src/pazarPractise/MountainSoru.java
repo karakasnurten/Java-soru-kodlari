@@ -1,6 +1,6 @@
 package pazarPractise;
 
-public class MaintainSoru {
+public class MountainSoru {
     /*MOUNTAIN ARRAY SORUSU : *Verilen herhangi bir arrayin Mountain Array olup olmadıgını kontrol etmek için bir kod
     yazınız.
             Not:
@@ -11,12 +11,12 @@ public class MaintainSoru {
     Bir array elemanları en büyük degerine kadar sürekli azalan, en büyük degerinden sonra sürekli artan deger alıyorsa Mounta!n Array degildir
     */
     public static void main(String[] args) {
-        int[] arr={0,2};
+        int[] arr={0,2,5,3,1};
         boolean sonuc=MountainArrBul(arr);
         System.out.println(sonuc);
     }
     private static boolean MountainArrBul(int[] arr) {
-        //arr lengthi >3
+        //arr length >3
         if (arr.length<3){
             return false;
         }

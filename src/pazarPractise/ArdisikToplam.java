@@ -21,22 +21,19 @@ public class ArdisikToplam {
         int sayac = 0;
         int indexBul = 1;
 
+
         do {
-
             int toplam = 0;
-
             for (int i = 0; i <= sayac; i++) {
 
                 toplam += arr[indexBul - 1 + i];
-
             }
-
             yeniArr[sayac] = toplam;
             sayac++;
             indexBul += sayac;
 
 
-        } while (sayac < yeniArr.length);
+        } while (sayac < yeniArr.length); // 4 kere calismis olur
 
         System.out.println(Arrays.toString(yeniArr));
 
