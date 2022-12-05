@@ -11,7 +11,7 @@ Pinned by hasan kocaman
 6:11
 Soru 8 -  * Write a program that deletes the letters 'a' from the names in the list given		 * as input.
 	 * INPUT : list1={"Ali","Veli","Ayse","Fatma","Omer"}
-	 *​ OUTPUT : ​ [Veli,Omer]
+	 OUTPUT :[Veli,Omer]
 Pinned by hasan kocaman
 
 
